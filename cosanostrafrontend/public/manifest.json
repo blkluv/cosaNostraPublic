@@ -1,0 +1,40 @@
+{
+  "short_name": "Kosa Nostra",
+  "name": "Kosa Nostra Frizerski Salon",
+  "icons": [
+    {
+      "src": "icon16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "icon32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "icon48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "icon64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "icon192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

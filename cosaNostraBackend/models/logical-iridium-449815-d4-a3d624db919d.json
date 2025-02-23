@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "logical-iridium-449815-d4",
+  "private_key_id": "a3d624db919de21c23fe6ea92bf7e800189d7cbb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9GN85ja6+RpF/\ngoxrIiByq7M3VHGd+Sf1k3J1cUU2UPveD9/DVhGeXwZO+Lb1q3j+mVpFrYDcNySN\nsoZtOa12lGRsDPOdxqMWJ4JHpX1qeC0pyr+PwVgIxl67Ie1SthCBbHaLapOpSF3r\nN+CF51HFgGqcZagKgxJfEeE4kiZXK0IfP0dxmI3oSqp5b3Zn83JljGo3qhCJDCH3\nLxPT7Da5iJ8myc4DVPk+reFktw/bmOGQtfD3K4yZd3Y9MF+h+IxotDYi6iHLUrx9\nzNSYogkw4K9fhPJdXPMrnXqPLgWWlsbgeZeZaKEBON7Ygozv+O1SSh95u+U16u15\ntu0sqeQ3AgMBAAECggEAJ8t0LsiCXci8FfmDU4h7C6bWsG40+unUXvoIvG56AlRI\nrRLqJFGYo5ub2EK/PjQ34lyjgsZgt/di2e8YGyRoPOw9tf+DxVBoQeFOqYVKP33L\nA2CHr9kgjbgxd3BMYXuvPY115SEoshdorHe16Hgl3UqJJSC/nHa5BwjcPOuE5hL3\n27phi+tZIJFFDs0YYia4XWzUyyzPMEeZ00OhxFour3j7fTGVRsHvGAE+8faGFlnX\nulI6dHQOvOkrFRyFooVX5e0m7XatbMIGRnrm51EWyEZTi54i2Ooq5Xm1/zzp0dnu\nalGkEv0CGBti6FDw9gugLWF+hhZdinuaQSX7E514AQKBgQDdZAw6ipgtVq1EhSsn\nrlMZbuIt/zkWs78YnjljuVCPs66a7f2pnVX/CyGDgy3th+VM05TqgJ+r9Z/D1SfL\nc/NEaYU1lszewCArj6Ay7UByz6W312K8KgW0fJtmkYmweSP5AVE+wLrRCM3tjPdF\npm1xMZgKLdigFruyeROSocJ7lwKBgQDaqHKnz5ju5lv1GVmOlzFgm7EGUVuynHN0\n83A/siUZeriNBEkgYgBaiV7MmKxTYyVciBTCoHLfIxoSqTqR0liKT96T84JUzItO\n15Tr38yJb4oKzLSnOHHnFH21FjzQYt9+y44+CC0fw5n1YlciVOTC8I2hVQDmqkzX\nRrjOfDFwYQKBgQDWWq40aEibbVbqBv4Xt4OiFmhMHNdLkdGuplPuqFjGKjUesNtv\nxHSlMkPKr9JiL7fmQN3oh40R1ApSdCnJpYSecoSVtGK8Mc10H+X+KRTDlSVg8Nwa\nT52ieRuFndhw03nu+EWPus+m4R1xqZEpENDaTihlgqpBpoEpdm1rBc/mFQKBgD/Y\nb6IQO9eF69PlUwEPpJtQ2p+9ocjFZfEAJAZ1Pd/ytXB3j+KkuvW0prmW2rp+eKpM\nEcPClcgRt8s7Hp71jGTWbWdF8whPsV2UFSfKcS6wIt6EZztsf9W5Zfs6QweV1yxu\nw1nZiVN9Cbdcv5SGtUU2eCRjbZ/smgNB4zRnjwgBAoGBAM+LhG6dfKOsIUvCHBwN\n2Uu92sG9j/5PvdGZcy8A+Ji2zrP94d2An2jaTBwWFatk+nveH6V8iiop1l625jiY\nBCK+0XOtw+fTu+WDDChsfSseUHcFp0nJcSGHthJBz6PrmyJGmPN4cKT3RpEk4g3I\nyk59TJJ7iyQ/o7YJl3EM6oQN\n-----END PRIVATE KEY-----\n",
+  "client_email": "kosa-nostra-838@logical-iridium-449815-d4.iam.gserviceaccount.com",
+  "client_id": "109541364869747754141",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kosa-nostra-838%40logical-iridium-449815-d4.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -1,0 +1,117 @@
+/* style.css */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-user-drag: none;
+  user-select: none; /* Prevent text selection */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE/Edge */  
+}
+
+img {
+  pointer-events: none;
+}
+
+
+.nav {
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+/* Calendar Container */
+.rbc-calendar {
+  background-color: #1a1a1a; /* Black background */
+  color: #e0e0e0; /* Light gray text */
+}
+
+/* Toolbar */
+.rbc-toolbar {
+  background-color: #2a2a2a; /* Darker gray for toolbar */
+  color: white;
+  border-bottom: 1px solid #444;
+}
+
+.rbc-toolbar button {
+  background-color: #444; /* Medium gray buttons */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.rbc-toolbar button:hover {
+  background-color: #555; /* Slightly lighter gray */
+}
+
+/* Weekdays Header */
+.rbc-day-slot .rbc-header {
+  background-color: #2a2a2a;
+  color: white;
+  padding: 8px;
+  border-right: 1px solid #444;
+}
+
+/* Today's Highlight */
+.rbc-today {
+  background-color: #333; /* Dark gray background for today */
+}
+
+/* Events */
+.rbc-event {
+  background-color: #FF9800; /* Warm orange */
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.rbc-event:hover {
+  background-color: #ffab2c; /* Lighter blue on hover */
+}
+/* Prevent color change on event click */
+.rbc-event.rbc-selected {
+  background-color: #ffab2c; /* Lighter blue on hover */
+}
+
+
+/* Time Grid */
+.rbc-time-content {
+  border-top: 1px solid #444;
+}
+
+.rbc-timeslot-group {
+  border-bottom: 1px solid #444;
+}
+
+.rbc-time-slot {
+  background-color: #1a1a1a;
+}
+
+/* Month View Dates */
+.rbc-month-view {
+  border: 1px solid #444;
+}
+
+.rbc-month-row {
+  border-bottom: 1px solid #444;
+}
+
+.rbc-date-cell {
+  color: #e0e0e0; /* Light gray */
+}
+
+.rbc-off-range {
+  color: #666; /* Darker gray for off-range dates */
+}
+
+

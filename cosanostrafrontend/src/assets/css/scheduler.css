@@ -1,0 +1,46 @@
+/* Increase the height of time slots (rows) */
+.react-simple-scheduler .body .schedule tr {
+  height: 80px; /* Adjust the height as needed */
+}
+
+/* Ensure the table layout works */
+.react-simple-scheduler .body .schedule {
+  position: relative;
+  table-layout: fixed; /* Ensure the table cells do not stretch unevenly */
+}
+
+/* Ensure events are positioned correctly */
+.react-simple-scheduler .body .event {
+  background-color: #4CAF50; /* Event background */
+  color: white; /* Event text color */
+  font-size: 16px; /* Font size */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px; /* Padding for event content */
+  position: absolute; /* Absolute positioning */
+  z-index: 10; /* Ensure events are above other content */
+  width: calc(100% - 20px); /* Make sure event takes up full width of the cell, accounting for padding */
+  box-sizing: border-box;
+}
+
+/* Ensure events are positioned inside the time slot */
+.react-simple-scheduler .body .schedule td {
+  position: relative; /* Position relative for event positioning */
+}
+
+
+/* Hide time slots outside of the 8 AM to 8 PM range (e.g., 8 PM to 8 AM) */
+.react-simple-scheduler .body .schedule tr:nth-child(-n+8),
+.react-simple-scheduler .body .schedule tr:nth-child(n+21) {
+  display: none;
+}
+
+/* Show the first row (day and date) */
+.react-simple-scheduler .body .schedule tr:first-child {
+  display: table-row; /* Make sure the first row is visible */
+}
+
+
+/* Show specific time slots from 8 AM to 8 PM (adjust to your range) */
+.react-simple-scheduler .body .schedule tr:nth-child(n+9):nth-child(-n+21) {
+  display: table-row;
+}
