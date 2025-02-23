@@ -1,5 +1,5 @@
 # Barbershop Management System
-This project is a full-stack web application designed to manage a barbershop's daily operations. Built using React, Tailwind CSS, Node.js, and MySQL, the platform supports appointment scheduling, has a Google calendar integration, and barber-specific features such as managing appointments and breaks. The website is made using a mobile first approach
+This project is a full-stack web application designed to manage a barbershop's daily operations. Built using React, Tailwind CSS, Node.js, and MySQL, the platform supports appointment scheduling, has a Google calendar integration, and barber-specific features such as managing appointments and breaks. The website is made using a mobile first approach. The website is currently LIVE! The domain is www.kosa-nostra.com 
 
 
 ## Landing Page
