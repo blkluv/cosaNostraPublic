@@ -35,13 +35,13 @@ const PROJ_NUM = process.env.GOOGLE_PROJECT_NUMBER;
 const CALENDAR_ID = process.env.GOOGLE_CALENDAR_ID;
 
 const allowedOrigins = [
-  'https://kosa-nostra.com', // Production frontend
+  'https://cosa-nostra-public.vercel.app/', // Production frontend
   'http://localhost:3001',  // Local frontend
 ];
 
 const checkOrigin = (req, res, next) => {
   const origin = req.headers.origin;
-  if (origin !== 'https://kosa-nostra.com') {
+  if (origin !== 'https://cosa-nostra-public.vercel.app/') {
     return res.status(403).json({ message: 'Forbidden' });
   }
   next(); // Continue to the next middleware or route handler
